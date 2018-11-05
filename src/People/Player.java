@@ -1,4 +1,6 @@
 package People;
 
-public class Player() {
+public class Player {
+
+
 }

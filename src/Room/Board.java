@@ -1,7 +1,5 @@
-package Board;
+package Room;
 
-public class Room {
-    Room[][] Maze = new Room[8][8];
+public class Board {
 
-    for(int i = 0; i < Room.length ; i++)
 }
