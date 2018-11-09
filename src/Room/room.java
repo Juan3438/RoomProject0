@@ -1,16 +1,16 @@
 package Room;
+import java.lang.String;
 
 public class room {
-    private int xLoc;
-    private int yLoc;
-
-    public room(int x, int y)
+    private String character;
+    private String occupant;
+    public room(String character, String occupant)
     {
-        xLoc = x;
-        yLoc = y;
+        this.character = character;
+        this.occupant = occupant;
     }
-    public void update(int x , int y)
+    public String toString()
     {
-
+            return character;
     }
 }
