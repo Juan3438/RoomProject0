@@ -34,10 +34,6 @@ public class Board {
         }
         return currentRoom;
     }
-    public static void test()
-    {
-
-    }
     public static String loadEntities(String currentRoom)
     {
         currentRoom = "o";
